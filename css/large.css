@@ -1,0 +1,208 @@
+@media screen and (min-width: 1000px) {
+  html {
+    background-image: url("/phpmotors/images/site/checkerboard.jpg");
+    background-repeat: repeat;
+    background-size: contain;
+  }
+
+  body {
+    max-width: 70%;
+    background-color: white;
+    margin: 3% auto;
+  }
+
+  #delorean-main-img {
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #main-home {
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  #main-home h1 {
+    width: 100%;
+    margin: 5% auto;
+    left: 25%;
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  #hero-section {
+    width: 75%;
+    margin: 0 auto;
+    height: 40vh;
+    display: flex;
+  }
+
+  #hero-text-div {
+    position: absolute;
+    left: 0;
+    top: 0;
+    line-height: 0.4rem;
+    font-size: 1.2rem;
+  }
+
+  #hero-text-div p {
+    font-family: "Comic Neue", cursive;
+  }
+
+  #own-today {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    text-align: center;
+    margin-top: 10%;
+  }
+
+  #reviews-section {
+    order: 3;
+  }
+
+  #upgrades-section {
+    order: 2;
+  }
+
+  #reviews-section ul li {
+    line-height: 2.5rem;
+  }
+
+  nav ul li {
+    font-size: 1.7rem;
+  }
+
+  #own-today img {
+    max-width: 150px;
+  }
+
+  #inv-display {
+    flex-flow: row wrap;
+    justify-content: flex-start;
+  }
+
+  #inv-display h2 {
+    font-size: 1rem;
+  }
+
+  #inv-display li {
+    max-width: 200px;
+    flex: 1 0 auto;
+    text-align: center;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #inv-display div {
+    width: 100%;
+  }
+
+  #inv-detail {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    max-height: 500px;
+  }
+
+  .inv-image {
+    max-width: 500px;
+  }
+
+  .inv-info {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    padding: 5% 5% 5% 5%;
+    background-color: rgba(211, 211, 211, 0.4);
+  }
+
+  .inv-price {
+    font-weight: bold;
+    order: 3;
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 2rem;
+    display: block;
+    width: 100%;
+    margin-left: 2%;
+  }
+
+  .inv-desc {
+    font-size: 1.3rem;
+  }
+
+  .inv-stock {
+    font-size: 1.3rem;
+  }
+
+  .inv-color {
+    font-size: 1.3rem;
+  }
+
+  #inv-display {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  #inv-display li {
+    margin-bottom: 0.5em;
+    border: 1px #ccc solid;
+    list-style-type: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    max-width: 30%;
+    max-height: 100%;
+    padding: 1%;
+  }
+
+  #inv-display li a img {
+    height: 150px;
+    border-radius: 10px;
+  }
+
+  #image-display {
+    list-style-type: none;
+    display: flex;
+    align-items: baseline;
+    justify-content: left;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .image-delete-link {
+    font-size: 1.5rem;
+  }
+
+  .tn-images {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .inv-image-tn {
+    max-width: 100%;
+    max-height: 30%;
+  }
+
+  .inv-image-tn:hover {
+    transition: all 0.3s ease;
+    transform: scale(1.5);
+  }
+
+  .thumbnail-header-div {
+    visibility: hidden;
+}
+}

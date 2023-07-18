@@ -1,0 +1,509 @@
+
+
+body {
+    background-color: white;
+    padding: 1% 1% 1% 1%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > div:last-child {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+
+
+/* #my-account {
+    margin-right: 4rem;
+} */
+
+header div > p {
+    font-size: 1.3rem;
+    font-family: 'Comic Neue', cursive;
+}
+
+#cookie {
+    border-right: 1px solid black; /* adjust as needed */
+    margin-right: 10px; /* adjust as needed */
+}
+
+
+nav {
+    background-color: #3a3a3a;
+    color: white;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+nav ul li {
+    margin-right: 1%;
+    margin-left: 1%;
+    list-style-type: none;
+    font-size: 1rem;
+    font-family: 'Comic Neue', cursive;
+}
+
+nav ul li:hover {
+    background-color: #4c96d7;
+}
+
+#main-home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+
+#hero-section {
+    max-width: 100%;
+    position: relative;
+    
+}
+
+#hero-section > img {
+    max-width: 100%;
+}
+
+#hero-text-div {
+    position: absolute;
+    left: 0;
+    top: 0;
+    line-height: .2rem;
+    font-size: .8rem;
+}
+
+#hero-text-div p {
+    font-family: 'Comic Neue', cursive;
+}
+
+#own-today {
+    text-align: center;
+    margin-top: 3%;
+}
+
+#reviews-section ul li{
+    font-family: 'Comic Neue', cursive;
+}
+
+#upgrades {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+
+#upgrades > div {
+    max-width: 45%;
+    min-width: 40%;
+}
+
+.upgrade-bg {
+    background-color: #4c96d7;
+    border: 1px solid black;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.upgrade-bg > img {
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+.upgrade > p {
+    text-align: center;
+    font-family: 'Comic Neue', cursive;
+}
+
+#footer-divider {
+    background-color: #3a3a3a;
+    height: .5rem;
+}
+
+footer div p {
+    text-align: center;
+    font-family: 'Comic Neue', cursive;
+}
+
+#server-error {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+li a, #vehicle-management {
+    color: white;
+    text-decoration: none;
+}
+
+form label input, textarea, input {
+	display: block;
+	font-size: 1rem;
+	border: solid 1px black;
+	border-radius: 4px;
+	padding: .75rem;
+	width: 100%;
+	max-width: 15rem;
+    margin-bottom: 1rem;
+}
+
+form label {
+    font-family: 'Comic Neue', cursive;
+}
+
+main #registration-form, main #login-form, main #add-vehicle-form, main #password-form, main #update-form {
+    font-family: 'Comic Neue', cursive;
+    margin: 2rem 2rem;
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: .5rem 2%;
+	max-width: 25rem;
+}
+
+select {
+    margin-bottom: 2rem;
+}
+
+.btn {
+    background-color: #4d96d7;
+    font-family: 'Comic Neue', cursive;
+    color: white;
+    min-width: 200px;
+    max-width: 250px;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3); /* adjust as needed */
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    background-color: darkblue;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5); /* adjust as needed */
+}
+
+.delete-btn {
+    background-color: red;
+    font-family: 'Comic Neue', cursive;
+    color: white;
+    width: 30%;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    transition: background-color 0.3s ease;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3); /* adjust as needed */
+}
+
+.delete-btn:hover {
+    background-color: darkred;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5); /* adjust as needed */
+}
+
+
+
+header div a {
+    font-size: 1.3rem;
+    margin-right: 1rem;
+    font-family: 'Comic Neue', cursive;
+    text-decoration: none;
+    color: black;
+}   
+
+header div a:hover {
+    color: blue;
+}
+
+legend {
+    margin-bottom: 1rem;
+}
+
+.vehicle-management-li {
+    color: blue;
+    text-decoration: underline;
+}
+
+.vehicle-management-li:hover {
+    color: black;
+    text-decoration: none;
+}
+
+table {
+    border: 1px solid black;
+    border-spacing: 1rem;
+    border-collapse: collapse;
+    border-radius: 100px;
+    margin-bottom: 5%;
+}
+
+
+table tbody tr td:first-child {
+    padding-right: 4%; /* adjust as needed */
+    font-family: 'Comic Neue', cursive;
+    text-align: center;
+    padding-left: 1%;
+    
+}
+
+table tbody tr td, table thead {
+    border-bottom: 1px solid black; /* adjust as needed */
+}
+
+table thead {
+    background-color: lightgray;
+    font-size: 1.3rem;
+}
+
+table thead th {
+    padding: 10px 0; /* adjust as needed */
+}
+
+
+table tbody tr td a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #4d96d7;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin: 5px 10px 5px 10px;
+}
+
+table tbody tr td:last-child a {
+    background-color: red; /* for normal state */
+}
+
+table tbody tr td:last-child a:hover {
+    background-color: darkred; /* for hover state */
+}
+
+
+table tbody tr td a:hover {
+    background-color: #3a3a3a;
+}
+
+
+.form {
+    font-family: 'Comic Neue', cursive;
+    margin: 2rem 2rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: .5rem 2%;
+    max-width: 25rem;
+}
+
+#inv-display{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+   
+#inv-display li{
+    margin-bottom: .5em;
+    border: 1px #ccc solid;
+    list-style-type: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    max-width: 200px;
+    padding: 3%;
+}
+
+#inv-display li a img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+#inv-display li a {
+    margin: 0px 0px 0px 0px;
+    box-sizing: border-box;
+}
+
+.detail-page-link h2 {
+    color: black;
+    border-bottom: 1px solid gray;
+}
+
+.detail-page-link {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    box-sizing: border-box;
+}
+
+#inv-display li a {
+    color: black;
+}
+
+#inv-detail {
+    border: 1px solid black;
+    border-radius: 10px;
+    display: grid;
+    max-width: 100%;
+    grid-template-rows: 2fr 2fr .2fr 1fr;
+}
+
+.inv-image {
+    border-radius: 10px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.inv-price {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 10%;
+}
+
+.image-delete-link {
+    color: white;
+    background-color: red;
+    padding: 2%;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.image-delete-link:hover {
+    background-color: darkred;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.5); /* adjust as needed */
+}
+
+#image-display {
+    list-style-type: none;
+    display: flex;
+    align-items:baseline;
+    justify-content: left;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.image-li {
+    min-width: 45%;
+    max-width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+
+.tn-images {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 100%;
+    grid-row: 4/5;
+    flex-wrap: wrap;
+}
+
+.inv-image-tn {
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.inv-info {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    padding: 0% 5% 5% 5%;
+    background-color: rgba(211, 211, 211, 0.4);
+}
+
+.thumbnail-header-div {
+    grid-row: 3/4;
+    color: black;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    padding: 0% 5% 5% 5%;
+    background-color: rgba(211, 211, 211, 0.4);
+}
+
+.thumbnail-header-div h3 {
+    padding-left: 1%;
+    font-size: 2rem;
+    vertical-align: middle;
+    text-align: left;
+    
+}
+
+.single-review-div {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #ccc;
+}
+
+.screenName {
+    font-size: 1.2rem;
+}
+
+.review-text-div {
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 1%;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.edit-link {
+    color: Blue;
+    text-decoration: underline;
+}
+
+.admin-review-li {
+    font-size: 1rem;
+    line-height: 130%;
+}
+
+#inner-admin-edit-div {
+    border: 1px solid black;
+    padding: 1%;
+    margin: 1% 1% 1% 0;
+    border-radius: 10px;
+}
+
+#first-review {
+    font-size: 1.3rem;
+}
+
+.review-heading {
+    font-size: 2rem;
+    width: 100%;
+    border-bottom: 2px solid black;
+    font-weight: bold;
+}
+
+
+
+
+
+
